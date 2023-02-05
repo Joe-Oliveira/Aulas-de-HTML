@@ -1,0 +1,31 @@
+@font-face {
+	font-family: 'FontLogo';
+	src: url("../_font/DancingScript-VariableFont_wght.ttf");
+}
+
+/* FORMATAÇÃO DO CORPO */
+
+body{
+    background: url('../_imagens/vancouver.jpg');
+}
+h1 {
+    font-family: 'FontLogo';
+    color: #ffffff;
+    font-size: 60pt;
+    text-align: center;
+}
+h1:hover {
+    color: #fc0000;
+}
+
+/* FORMATAÇÃO DO MENU */
+
+div#interface nav#menu img {
+    border: 1px solid #000000;
+    width: 1500px;
+    height: 900px;
+    margin: 0px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0,.7);
+    align-items: center;
+}

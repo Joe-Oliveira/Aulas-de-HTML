@@ -1,0 +1,1 @@
+document.write("Olá, hoje é dia :" + Date ());

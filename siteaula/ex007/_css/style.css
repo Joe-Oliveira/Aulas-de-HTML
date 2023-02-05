@@ -1,0 +1,92 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'FonteLogo';
+    src: url('../_fonts/Brightness.ttf');
+}
+
+                                        /* CORPO */
+body {
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+h1 {
+    text-align: center;
+}
+                                        /* CABEÇALHO */
+header {
+    opacity: .8;
+    background-color: #000000;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+}
+nav {
+    text-align: center;
+    margin: 1px 5px 5px auto;
+}
+a {
+    box-shadow: 5px 5px 5px rgba(4, 14, 150, 0.5);
+    margin: 10px;
+    border-radius: 50px;
+    background-color: #5995ee;
+    color: #ffffff;
+    font-size: 1.3em;
+    text-decoration: none;
+    padding: 5px;
+}
+a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+header > h1 {
+    color: #ffffff;
+    text-shadow: 5px 5px 5px rgba(4, 14, 150, 0.5);
+    font-family: 'FonteLogo';
+    font-size: 4em;
+}
+                                        /* FORMATAÇÃO MENU DE JOGOS */
+
+.jogos {
+    opacity: 1;
+    display: inline-block;
+    margin-left: 10%;
+    background-color: #2c2b2b;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0,0.5);
+    width: 200px;
+    height: 200px;
+    transition: .5s;
+}
+.jogos:hover {
+    width: 250px;
+    height: 250px;
+}
+                                        /*  FORMATAÇÃO DO MAIN */
+main {
+    background-image: url('../_imagens/imagem_home.jpg');
+    background-color: #78a4df;
+    height: 500px;
+    color: #ffffff;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+main > p {
+    text-align: justify;
+}
+                                        /* FORMATAÇÃO DO RODAPÉ */
+footer {
+    padding: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+footer > h3 {
+    margin: auto;
+    font-size: 0.8em;
+}
+footer > p {
+    padding: 3px;
+    margin: auto;
+    font-size: .7em;
+}

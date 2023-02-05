@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'Titulo';
+    src: url('../_fonts/BrightnessBook.ttf');
+}
+
+:root {
+    --cor1: #222222;
+    --cor2: #3f3c3c;
+    --cor3: #706c6c;
+    --cor4: #8b8b8b;
+    --cor5: #cecece;
+
+    --fonte-padrao: Arial, Helvetica, Sans-serif;
+    --fonte-titulo: 'Titulo';
+    --fonte-bebas: 'Bebas Neue', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    color: #ffffff;
+    font-family: var(--fonte-padrao);
+}
+
+body {
+   background-color: var(--cor1);
+}
+
+div#links {
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor1));
+    padding: 20px;
+}
+
+.icones {
+    width: 50px;
+    transition: 0.5s;
+}
+
+div#links > a {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 1.3em;
+    font-family: var(--fonte-bebas);
+    padding: 10px;
+    margin-left: 50px;
+}
+
+header {
+    background: linear-gradient(0deg, var(--cor1) 12%, transparent 100%), url('../_imagens/pixel-piece.jpg');
+    width: 1400px;
+    height: 630px;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px 5px;
+}
