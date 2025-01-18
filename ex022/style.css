@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url('images/wallpaper001.jpg');
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.quadrado{
+    border: 3px solid #000;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #ababab;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+#q1{
+    background-image: url('images/pattern001.png');
+}
+
+#q2{
+    background-image: linear-gradient(to bottom, #bbff00, #ff7301);
+}
+
+#q3{
+    background-image: url('images/pattern003.png');
+}
